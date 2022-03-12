@@ -97,3 +97,9 @@ footer{
     background: url(bg.jpg); /*quando quer colocar uma imagem com cor usar url(bg.jp) pois o css replica */ 
     padding: 40px;
 }
+
+.Copyrigth{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
