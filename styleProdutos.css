@@ -44,3 +44,36 @@ nav a {
     font-size: 22px;
     text-decoration: none;
 }
+.produtos{
+    width: 940px;
+    margin:  0 auto; /*0 para cima e para baixo e*/  /*automático para os lados*/
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top; 
+   /* background: #CCCCCC;*/ /* usado para facilitar na questão do espaçamento*/
+    margin: 0 1.5%;
+    padding: 30px 20px ;  
+    box-sizing: border-box;/* isso faz com que o espaçamento lateral esteja dentro do porcentual dos 30%, feito isso o meu  (padding: 30px 20px) vai está ocupando 30% da largura */
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bolder; /*linha de que coloca em negrito o nome*/
+}
+
+.produto-descricao{
+   font-size: 18px; 
+}
+.produto-preco {
+    font-size: 22px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
