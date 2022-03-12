@@ -44,6 +44,10 @@ nav a {
     font-size: 22px;
     text-decoration: none;
 }
+nav a:hover{ /* quando mouse tiver por cima dos links(a) do menu de (navegação)*/
+    color: #c78c27;
+    
+}
 .produtos{
     width: 940px;
     margin:  0 auto; /*0 para cima e para baixo e*/  /*automático para os lados*/
@@ -64,7 +68,16 @@ nav a {
     border-style: solid;
     border-radius: 10px;
 }
+.produtos li:hover{
+    border-color:#c78c27 ;
+}
+.produtos li:active{ /*efeito dado para mouse quando estiver pressionado sobre o produto*/
+    border-color:#0bd872
+}
 
+.produtos li:hover h2{ /*efeito aplicado texto do elemento aumentar de tamanho*/
+    font-size: 34px;
+}
 .produtos h2{
     font-size: 30px;
     font-weight: bolder; /*linha de que coloca em negrito o nome*/
@@ -77,4 +90,10 @@ nav a {
     font-size: 22px;
     font-weight: bolder;
     margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    background: url(bg.jpg); /*quando quer colocar uma imagem com cor usar url(bg.jp) pois o css replica */ 
+    padding: 40px;
 }
