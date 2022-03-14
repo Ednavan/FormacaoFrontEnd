@@ -1,7 +1,12 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 header{
     background: #BBBBBB;
     padding: 20px 0;
 }
+
 
 .caixa {
     position: relative;
@@ -260,7 +265,7 @@ td, th {
     font-size: 2em;
     margin: 0 0 1em ;
     clear: left;
- 
+    
 }
 
 .principal p{
