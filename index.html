@@ -4,7 +4,9 @@
 		<meta charset="UTF-8">
 		<title>Barbearia Alura</title>
 		<link rel="stylesheet" href="reset.css">
-		<link rel="stylesheet" href="styleIndex.css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="style-home.css">
+	
 	</head>
 
 	<body>
@@ -15,27 +17,33 @@
 				<nav>
 					<ul>
 						<li><a href="index.html">Home</a></li>
-						<li><a href="produtos.html">Produtos</a></li>
+						<li><a href="Produto.html">Produtos</a></li>
 						<li><a href="contato.html">Contato</a></li>
 					</ul>
 				</nav>
 			</div>
 		</header>
-
+		
+		<img class="banner" src="banner.jpg">
+		
 		<main>
-		<img id="banner" src="banner.jpg">
-		<div class="principal">
-			<h1>Sobre a Barbearia Alura</h1>
+
+		<section class="principal"> <!-- O conteúdo é fechado em si mesm, ou seja uma mesma seção para um objetivo, nesse caso um texto uma descrição sobre a barbearia, é chamado de section, semanticamente faz o mesmo sentido   -->
+
+			<h2 class="titulo-principal">Sobre a Barbearia Alura</h2>
 	 
+			<img class="utensilios" src="utensilios.jpg" alt="Utensilios de um  barbeiro">
+			
 			<p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
 
 			<p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
 
 			<p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
-		</div>
+			
+		</section>
 
-		<div class="beneficios">
-			<h2>Benefícios</h2>
+		<section class="beneficios">
+			<h2 class="titulo-principal">Benefícios</h2>
 
 			<ul>
 				<li class="itens">Atendimento aos Clientes</li>
@@ -45,13 +53,13 @@
 			</ul>
 
 			<img src="beneficios.jpg" class="imagembeneficios">
-		</div>
+		</section>
 	</main>
 
 	<footer>
         <img src="logo-branco.png">
         <p class="Copyrigth">&copy;Copyrigth Barbearia</p>
     </footer>
-	
+
 	</body>
 </html>
